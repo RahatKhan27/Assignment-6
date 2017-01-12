@@ -1,0 +1,125 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	padding: 0;
+	margin: 0;
+	background:url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100vh;
+	position: relative;
+}
+
+.body_part{
+    position: absolute;
+  background: rgba(122, 131, 140, 0.67);
+  	float: left;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 42px;
+    margin-top: 30px;
+   
+}
+
+
+.body_part h1{
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0;
+}
+.body_part input{
+    text-align: center;
+    background: #fff;
+    padding: 5px 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+.body_part a{
+    text-decoration: none;
+       color: rgba(83, 0, 230, 0.87);
+    font-size: 19px;
+    padding: 0px 5px;
+    color:blue;
+}
+.log_in{
+    width:100%;
+    margin-top: 20px;
+
+}
+.log_in a{
+	width: 402px;
+    text-align: center;
+    padding:10px;
+       background: #4d4d77;
+    color: #fff;
+    font-size:15px; 
+    text-transform: uppercase;
+    position: absolute;
+    max-width: 100%;
+    min-width: 50%;
+}
+.join{
+	float: left;
+    width: 100%;
+    text-align: center;
+}
+.join h2{
+    display: inline-block;
+    margin-top: 50px;
+
+}
+.join a{
+    list-style: none; 
+    width: 250px;
+
+}
+img{
+	box-sizing: border-box;
+	padding-left:10px;
+	float:right;
+}
+
+
+
+.menu{
+	position: absolute;
+	top:2%;
+	 left: 50%;
+    transform: translate(-50%, -50%);
+	color:black;
+	font-size: 19px;
+
+}
+
+.menu ul{
+  margin: 15px auto;
+  
+ 
+  
+}
+.menu ul li{
+  
+  display: inline-block;
+  list-style-type: none;
+  margin: 0px 25px;
+  padding: 10px;
+
+  
+}
+.menu ul li a{
+  text-decoration: none;
+  padding: 3px 3px 3px 0px;
+  display: block;
+  color:black;
+}
+.menu ul li a:hover{
+color:white;
+background:black;
+}
+
